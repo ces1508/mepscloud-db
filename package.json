@@ -1,0 +1,26 @@
+{
+  "name": "mepscloud-db",
+  "version": "1.0.0",
+  "description": "client mepscloud db",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint  && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "author": "christian eduardo segura <ces1508@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "npm": "^3.10.7",
+    "rethinkdb": "^2.3.3",
+    "uuid-base62": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-eslint": "^6.1.2",
+    "standard": "^8.1.0"
+  }
+}
