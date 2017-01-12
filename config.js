@@ -3,6 +3,6 @@ module.exports = {
     host: '104.131.43.30',
     port: 28015,
     db: 'mepscloud',
-    setup: true
+    setup: false
   }
 }
