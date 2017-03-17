@@ -8,7 +8,6 @@
     "test": "npm run lint  && ava",
     "postinstall": "node setup.js",
     "submit": "npm pack && cp mepscloud-db-1.0.0.tgz ../../Ansible_MepsCloud/roles/mepscloud_api/files && tar xvfz mepscloud-db-1.0.0.tgz && mv package mepscloud-db"
-
   },
   "standard": {
     "parser": "babel-eslint"
@@ -19,6 +18,8 @@
     "co": "^4.6.0",
     "npm": "^3.10.7",
     "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.28",
+    "then-sleep": "^1.0.1",
     "uuid-base62": "^0.1.0"
   },
   "devDependencies": {
